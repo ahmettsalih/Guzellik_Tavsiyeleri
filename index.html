@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güzellik ve Bakım Tavsiyeleri</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ffe6e6;
+            border-bottom: 3px solid #ff99cc;
+        }
+        footer {
+            background-color: #ff99cc;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: #ff69b4;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-title {
+            color: #495057;
+        }
+        .btn-primary {
+            background-color: #ff6f61;
+            border-color: #ff6f61;
+        }
+        .btn-primary:hover {
+            background-color: #ff3e2d;
+            border-color: #ff3e2d;
+        }
+        @media (max-width: 768px) {
+            header {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header class="text-center py-4 shadow-sm">
+        <h1 class="text-primary" style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #ff69b4;">Güzellik ve Bakım Tavsiyeleri</h1>
+        <p class="text-muted">Kendinizi daha güzel ve özel hissetmeniz için</p>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="index.html" class="nav-link text-dark">Ana Sayfa</a></li>
+                <li class="nav-item"><a href="hakkımızda.html" class="nav-link text-dark">Hakkımızda</a></li>
+                <li class="nav-item"><a href="iletişim.html" class="nav-link text-dark">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container my-5 flex-grow-1">
+        <section class="row g-4">
+            <div class="col-md-4 d-flex">
+                <div class="card w-100 mb-4 border-0 shadow card-hover d-flex flex-column">
+                    <img src="Assets/Cilt Bakımı.webp" class="card-img-top" alt="Cilt Bakımı">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cilt Bakımı Rutini</h5>
+                        <p class="card-text">Sağlıklı bir cilt için günlük cilt bakım rutini önerileri.</p>
+                        <a href="ciltmakyaj.html" class="btn btn-primary mt-auto">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card w-100 mb-4 border-0 shadow card-hover d-flex flex-column">
+                    <img src="Assets/Makyaj İpuçları.webp" class="card-img-top" alt="Makyaj İpuçları">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Makyaj İpuçları</h5>
+                        <p class="card-text">Makyajda daha profesyonel sonuçlar için kolay ipuçları.</p>
+                        <a href="ciltmakyaj.html" class="btn btn-primary mt-auto">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card w-100 mb-4 border-0 shadow card-hover d-flex flex-column">
+                    <img src="Assets/Saç Bakımı.webp" class="card-img-top" alt="Saç Bakımı">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Saç Bakımı</h5>
+                        <p class="card-text">Parlak ve sağlıklı saçlar için öneriler.</p>
+                        <a href="sactirnak.html" class="btn btn-primary mt-auto">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card w-100 mb-4 border-0 shadow card-hover d-flex flex-column">
+                    <img src="Assets/Tırnak Bakımı.webp" class="card-img-top" alt="Tırnak Bakımı">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Tırnak Bakımı</h5>
+                        <p class="card-text">Güzel ve sağlıklı tırnaklar için ipuçları.</p>
+                        <a href="sactirnak.html" class="btn btn-primary mt-auto">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card w-100 mb-4 border-0 shadow card-hover d-flex flex-column">
+                    <img src="Assets/Aromaterapi.webp" class="card-img-top" alt="Aromaterapi">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Aromaterapi Önerileri</h5>
+                        <p class="card-text">Rahatlamanızı sağlayacak aromaterapi teknikleri.</p>
+                        <a href="aromafitness.html" class="btn btn-primary mt-auto">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex">
+                <div class="card w-100 mb-4 border-0 shadow card-hover d-flex flex-column">
+                    <img src="Assets/Fitness ve Sağlık.webp" class="card-img-top" alt="Fitness Rutini">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Fitness ve Sağlık</h5>
+                        <p class="card-text">Enerjik ve sağlıklı kalmanız için öneriler.</p>
+                        <a href="aromafitness.html" class="btn btn-primary mt-auto">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white text-center py-3 mt-auto">
+        <p>&copy; 2024 Güzellik ve Bakım Rehberi. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
